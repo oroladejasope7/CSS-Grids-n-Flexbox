@@ -1,0 +1,110 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    color: hsl(0, 0%, 95%);
+    font-size: 15px;
+}
+p{
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+}
+h2{
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: x-large;
+    font-weight: 700;
+}
+.main-container{
+    width: 100%;
+    height: 100vh;
+    background-color: hsla(0, 0%, 100%, 0.75);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    width: 70%;
+    height: 70vh;
+    border-radius: 4%;
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.firstbox{
+    height: 70vh;
+    width: 33.33333%;
+    background-color: hsl(31, 77%, 52%);
+    border-radius: 4% 0% 0% 4%;
+    padding-left: 5%;
+    padding-right: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+}
+.secondbox{
+    height: 70vh;
+    width: 33.33333%;
+    background-color: hsl(184, 100%, 22%);
+    padding-left: 5%;
+    padding-right: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+}
+.thirdbox{
+    height: 70vh;
+    width: 33.33333%;
+    background-color: hsl(179, 100%, 13%);
+    border-radius: 0%  4% 4% 0%;
+    padding-left: 5%;
+    padding-right: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+}
+.btn1{
+    background-color: hsl(0, 0%, 95%);
+    color: hsl(31, 77%, 52%);
+    height: 4vh;
+    width: 50%;
+    border-radius: 30px;
+    border: 2px;
+    cursor: pointer;
+}
+.btn2{
+    background-color: hsl(0, 0%, 95%);
+    color: hsl(184, 100%, 22%);
+    height: 4vh;
+    width: 50%;
+    border-radius: 30px;
+    border: 2px;
+    cursor: pointer;
+}
+.btn3{
+    background-color: hsl(0, 0%, 95%);
+    color: hsl(179, 100%, 13%);
+    height: 4vh;
+    width: 50%;
+    border-radius: 30px;
+    border: 2px;
+    cursor: pointer;
+}
+.btn1:hover{
+    background-color: transparent;
+    color: hsl(0, 0%, 95%);
+    border: 2px solid hsl(0, 0%, 95%);
+}
+.btn2:hover{
+    background-color: transparent;
+    color: hsl(0, 0%, 95%);
+    border: 2px solid hsl(0, 0%, 95%);
+}
+.btn3:hover{
+    background-color: transparent;
+    color: hsl(0, 0%, 95%);
+    border: 2px solid hsl(0, 0%, 95%);
+}

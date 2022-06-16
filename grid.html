@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Grids</title>
+    <style>
+        body{
+            margin: 0%;
+            padding: 0%;
+            background-color: darkblue;
+            display: flex;
+            place-items: center;
+            min-height: 100vh;
+        }
+        main{
+            display: grid;
+            grid-template-areas: 
+            'a a a b'
+            'a a a b'
+            'c c d d'
+            'c c e e'
+            ;
+            gap: 10px;
+            width: 70%;
+            height: 70vh;
+            margin: auto;
+        }
+        main div{
+            padding: 2em;
+        }
+        .a{
+            background-color: orangered;
+            grid-area: a;
+        }
+        .b{
+           background-color: orange; 
+           grid-area: b;
+        }
+        .c{
+           background-color: rgb(53, 114, 53); 
+           grid-area: c;
+        }
+        .d{
+           background-color: rgb(11, 135, 207); 
+           grid-area: d;
+        }
+        .e{
+            background-color: rgb(11, 135, 207); 
+            grid-area: e;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <div class="a"></div>
+        <div class="b"></div>
+        <div class="c"></div>
+        <div class="d"></div>
+        <div class="e"></div>
+    </main>
+</body>
+</html>
